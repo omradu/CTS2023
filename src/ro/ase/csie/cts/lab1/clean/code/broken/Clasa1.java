@@ -1,6 +1,7 @@
 package ro.ase.csie.cts.lab1.clean.code.broken;
 
 public class Clasa1 {
+
     public float Compute(int t, float s, int period)
     {
         float result = 0;
