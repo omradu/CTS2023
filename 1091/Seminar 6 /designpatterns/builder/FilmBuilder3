@@ -1,0 +1,52 @@
+public class FilmBuilder3 extends AbstractFilmBuilder{
+    Film film;
+
+    public FilmBuilder3(String titlu, int anAparitie) {
+        this.film = new Film();
+        //Aici nu mai avem acces la zona privata
+        // cu default package level
+        film.titlu = titlu;
+        film.anAparitie = anAparitie;
+    }
+
+
+    @Override
+    public void addGen(String genul) {
+        //TO DO
+    }
+
+    @Override
+    public void areLimitaVarsta() {
+        //TO DO
+    }
+
+    @Override
+    public void addRatingIMDB(double rating) {
+        //TO DO
+    }
+
+    @Override
+    public void addDurataInMinute(double durata) {
+        //TO DO
+    }
+
+    @Override
+    public void addBileteVandute(int ticketsSold) {
+        //TO DO
+    }
+
+    @Override
+    public void esteDisponibilIn4D() {
+        //TO DO
+    }
+
+    @Override
+    public void addAnProductie(int anProductie) {
+        //TO DO
+    }
+
+    @Override
+    public Film build() {
+        return film;
+    }
+}
