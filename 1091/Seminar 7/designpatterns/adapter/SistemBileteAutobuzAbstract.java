@@ -1,3 +1,3 @@
 public interface SistemBileteAutobuzAbstract {
-    void rezervaLoc();
+    void cumparaBilet();
 }
