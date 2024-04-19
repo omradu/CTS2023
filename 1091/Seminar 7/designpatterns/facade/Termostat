@@ -1,0 +1,16 @@
+public class Termostat {
+    protected boolean estePornitaCaldura = false;
+    protected int temperatura;
+
+    public void pornesteCalsura() {
+        estePornitaCaldura = true;
+    }
+
+    public void opresteCaldura() {
+        estePornitaCaldura = false;
+    }
+
+    public void seteazaTemperatura(int temperatura) {
+        this.temperatura = temperatura;
+    }
+}
