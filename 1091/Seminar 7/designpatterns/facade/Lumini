@@ -1,0 +1,11 @@
+public class Lumini {
+    protected boolean suntAprinse = false;
+
+    public void aprinde() {
+        suntAprinse = true;
+    }
+
+    public void stinge() {
+        suntAprinse = false;
+    }
+}
