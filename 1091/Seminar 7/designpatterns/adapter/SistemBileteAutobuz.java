@@ -3,7 +3,7 @@ public class SistemBileteAutobuz implements SistemBileteAutobuzAbstract{
     private int nrLocuriRezervate = 0;
 
     @Override
-    public void rezervaLoc() {
+    public void cumparaBilet() {
         if(nrLocuriRezervate < nrLocuri) {
             nrLocuriRezervate++;
             System.out.println("Loc rezervat!");
