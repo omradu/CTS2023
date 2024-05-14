@@ -9,7 +9,7 @@ public class BursaValori {
         this.observatoriBursa.remove(observator);
     }
 
-    public void notifyObservers(String simbol, double pret) {
+    public void notificaObservatori(String simbol, double pret) {
         for(ObservatorBursa observator : observatoriBursa) {
             observator.updatePret(simbol, pret);
         }
