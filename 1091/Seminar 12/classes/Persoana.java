@@ -1,6 +1,6 @@
 import seminar.junit.exceptions.ExceptiePersoanaVarstaInvalida;
 
-public class Persoana {
+public class Persoana implements IPersoana{
     String nume; 
     int varsta; 
     String CNP; 
